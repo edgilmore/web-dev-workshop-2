@@ -20,3 +20,5 @@ phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Ph
       $scope.mainImageUrl = imageUrl;
     }
   }]);
+
+var myAppController = angular.module('myAppController', []);
